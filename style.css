@@ -1,0 +1,16 @@
+html * {
+    font-family: "Monixend", monospace;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Monixend";
+    font-weight: 400;
+    src: url(fonts/monixend.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "Monixend";
+    font-weight: 700;
+    src: url(fonts/monixend-bold.woff2) format('woff2');
+}
