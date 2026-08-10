@@ -14,3 +14,11 @@ html * {
     font-weight: 700;
     src: url(fonts/monixend-bold.woff2) format('woff2');
 }
+
+.font-sample {
+  display: block;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px
+}
