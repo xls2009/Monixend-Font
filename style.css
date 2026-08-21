@@ -1,18 +1,6 @@
-html * {
-    font-family: "Monixend", monospace;
-    text-align: center;
-}
-
-@font-face {
-    font-family: "Monixend";
-    font-weight: 400;
-    src: url(fonts/monixend.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: "Monixend";
-    font-weight: 700;
-    src: url(fonts/monixend-bold.woff2) format('woff2');
+* {
+    --bs-font-sans-serif: "Lexend", "Monixend", "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif !important;
+    --bs-font-monospace: "Monixend", "Lexend", "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", monospace !important;
 }
 
 .font-sample {
@@ -21,4 +9,13 @@ html * {
   height: auto;
   margin: 0 auto;
   border-radius: 5px
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+html {
+    text-align: center;
 }
