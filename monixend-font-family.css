@@ -13,8 +13,3 @@
     font-weight: 700;
     src: url(fonts/monixend-bold.woff2) format('woff2');
 }
-
-.font-monixend {
-    font-family: var(--bs-font-monospace);
-    font-size: 1.25em;
-}

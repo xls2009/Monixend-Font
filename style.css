@@ -1,6 +1,6 @@
 * {
-    --bs-font-sans-serif: "Lexend", "Monixend", "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif !important;
-    --bs-font-monospace: "Monixend", "Lexend", "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", monospace !important;
+    --bs-font-sans-serif: "Monixend", "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif !important;
+    --bs-font-monospace: "Monixend", monospace !important;
 }
 
 .font-sample {
