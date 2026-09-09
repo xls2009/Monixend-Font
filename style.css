@@ -1,6 +1,9 @@
-* {
-    --bs-font-sans-serif: "Monixend", "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif !important;
-    --bs-font-monospace: "Monixend", monospace !important;
+*, html, body, code, kbd, pre, samp {
+  font-family: "Monixend", monospace;
+}
+
+html {
+  text-align: center;
 }
 
 .font-sample {
@@ -14,8 +17,4 @@
 .btn:focus, .btn:active {
   outline: none !important;
   box-shadow: none !important;
-}
-
-html {
-    text-align: center;
 }
